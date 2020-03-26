@@ -1,0 +1,24 @@
+{
+  "name": "pr-body-replace-action",
+  "version": "1.0.0",
+  "description": "Replace parts of a github PR description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmaier/pr-body-replace-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertmaier/pr-body-replace-action/issues"
+  },
+  "homepage": "https://github.com/robertmaier/pr-body-replace-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1"
+  }
+}

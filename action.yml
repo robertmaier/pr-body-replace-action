@@ -1,0 +1,14 @@
+name: 'PR Description Replacer'
+description: 'Replaces parts of a PR description'
+inputs:
+  pr-id:
+    description: 'Pull Request ID'
+    required: true
+
+output:
+  pr-id:
+    description: 'Pull Request ID'
+    
+runs:
+  using: 'node12'
+  main: 'index.js'
